@@ -3,7 +3,7 @@ const bonus = 10;
 function sum(first, second) {
     var result = first + second + bonus;
     if(result>9){
-        var mood= 'Happay';
+        var mood= 'Happy';
         mood='fishy';
         mood='funky';
     }
