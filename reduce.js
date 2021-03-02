@@ -18,3 +18,6 @@ const friends = [
 
 const result = friends.reduce((sum, friend) => sum + friend.money, 0);
 console.log(result);
+
+const final = friends.reduce((sum, friend) =>sum + " " + friend.name, "Undefine");
+console.log(final);
